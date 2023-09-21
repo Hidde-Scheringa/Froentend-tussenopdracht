@@ -1,19 +1,65 @@
+body {
+    margin: 0;
+}
+
+
+
 nav{
-    background-color: rgb(121, 121, 212);
-    margin: 15px;
+    background-color: rgb(230, 230, 153);
     border: solid;
     border-radius: 5px;
-    padding-bottom: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 nav a{
-    color: black;
+    color: rgb(89, 85, 13);
     text-decoration: none;
     padding: 15px;
-    margin-left: 50px;
+}
+
+
+main{
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.bestelKnop{
+    text-align: center;
+    color: black;
+    border: solid color(rgb(230, 230, 153));
+    border-radius: 5px;
+    background-color: rgb(230, 230, 153);
+    text-decoration: none;
+    margin-right: 300px;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.bestelKnop:hover{
+    color:white;
+    border: solid color(rgb(230, 230, 153));
+    border-radius: 5px;
+    background-color: rgb(230, 230, 153);
+    text-decoration: none;
+}
+
+.contentMain{
+    display: flex;
+    gap: 50px;
+}
+
+.setInformatie{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+}
+
+a:hover{
+    color: rgb(190, 52, 45);
 }
 
 img {
@@ -25,4 +71,20 @@ img {
     border: solid color(red);
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.ucsVenator{
+    background-color: white;
+    width: 500px;
+    border: solid;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+p {
+    padding-right: 300px;
+}
+
+h2{
+    margin-right: 800px;
 }
