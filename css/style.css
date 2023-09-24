@@ -4,7 +4,7 @@ body {
 
 
 
-nav{
+nav {
     background-color: rgb(230, 230, 153);
     border: solid;
     border-radius: 5px;
@@ -13,19 +13,18 @@ nav{
     align-items: center;
 }
 
-nav a{
+nav a {
     color: rgb(89, 85, 13);
     text-decoration: none;
     padding: 15px;
 }
 
 
-main{
-    padding-left: 50px;
+main {
     padding-top: 70px;
 }
 
-.bestelKnop{
+.bestelKnop {
     text-align: center;
     color: black;
     border: solid color(rgb(230, 230, 153));
@@ -34,31 +33,87 @@ main{
     text-decoration: none;
     margin-right: 300px;
     padding: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
-.bestelKnop:hover{
-    color:white;
+.bestelKnop:hover {
+    color: white;
     border: solid color(rgb(230, 230, 153));
     border-radius: 5px;
     background-color: rgb(230, 230, 153);
     text-decoration: none;
+    padding-left: 29%;
+    padding-right: 29%;
 }
 
-.contentMain{
+.contentMain {
     display: flex;
     gap: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
 }
 
-.setInformatie{
+.contentMain2 {
+    border-top: solid;
+}
+
+.contentMain2 {
+    display: flex;
+    gap: 70px;
+    border-top: solid;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+#leftColum {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+
+}
+
+#leftColumText {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: small;
+    flex: 2;
+    margin: 0px;
+    flex: 1;
+}
+
+#leftColumText2 {
+    font-size: small;
+    flex: 1;
+    padding-right: 10px;
+}
+
+#rightColom {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#rightColumText {
+    padding-right: 0px;
+}
+
+
+.setInformatie {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
     align-items: center;
 }
 
-a:hover{
+a:hover {
     color: rgb(190, 52, 45);
 }
 
@@ -73,18 +128,83 @@ img {
     margin-top: 10px;
 }
 
-.ucsVenator{
-    background-color: white;
+.ucsVenator {
+    background-color: rgb(255, 255, 255);
     width: 500px;
     border: solid;
     margin: 10px;
     margin-left: 0px;
 }
 
+.gerelateerdeItems {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgb(230, 230, 153);
+}
+
+#UCSfalcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#ghostAndfantom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#legoRivendell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+#gerelateerdeItemsText {
+    padding-right: 0px;
+}
+
+#gerelateerdeItemsAfbeelingen {
+    border: none;
+    background-color: rgb(230, 230, 153);
+    width: 5vw;
+}
+
+footer {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    background-color: rgb(113, 113, 48);
+}
+
+#footerText {
+    padding-right: 0px;
+    font-size: small;
+    color: rgb(188, 188, 188);
+}
+
 p {
     padding-right: 300px;
 }
 
-h2{
+h1 {
+    padding-left: 50px;
+}
+
+h2 {
     margin-right: 800px;
+}
+
+h3 {
+    padding-top: 15px;
+    padding-bottom: 4px;
+
+    flex: 2;
+    margin: 0px;
 }
